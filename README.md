@@ -9,7 +9,8 @@ AI Audio Generation: Synthesizes a new AI voice based on transcription text with
 Speed Analysis: Matches the AI-generated audio to the original audio's speed.
 Video Rendering: Merges AI audio back into the video.
 Download Option: Download the final video with the synchronized AI audio.
-Requirements
+
+## Requirements
 Python 3.8+
 Streamlit
 AssemblyAI SDK
@@ -18,11 +19,13 @@ Librosa
 NumPy
 Soundfile
 Requests
-Setup
+
+
+## Setup
 Clone the repository:
 
 
-git clone https://github.com/your_username/video-audio-replacement.git
+git clone https://github.com/hemanthkumarv24/video-audio-replacement.git
 cd video-audio-replacement
 Install dependencies:
 
@@ -30,23 +33,27 @@ Install dependencies:
 pip install -r requirements.txt
 Set up API keys in the script (Replace placeholder keys with your AssemblyAI and Play.ht credentials).
 
-Run the application:
-
+## Run the application:
 
 streamlit run app.py
-Usage
+
+## Usage
 Open the Streamlit app in a browser.
 Upload a video file you wish to process.
 Wait for the audio extraction, transcription, and AI audio generation to complete.
 Download the processed video with AI-generated audio.
-File Structure
+
+## File Structure
 app.py: Main application file.
 requirements.txt: Lists all required Python packages.
-API Reference
+
+## API Reference
 AssemblyAI: Used for transcribing audio.
 Play.ht: Used to generate AI audio from the transcription.
-Notes
+
+## Notes
 File Size: Processing may take a while for larger files.
 Audio Length: Works best with shorter audio segments for alignment accuracy.
-License
+
+## License
 This project is licensed under the MIT License.
