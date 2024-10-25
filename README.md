@@ -25,7 +25,7 @@ Requests
 Clone the repository:
 
 
-git clone https://github.com/hemanthkumarv24/video-audio-replacement.git
+git clone [https://github.com/hemanthkumarv24/video-audio-replacement.git](https://github.com/hemanthkumarv24/audio-replacement.git)
 cd video-audio-replacement
 Install dependencies:
 
