@@ -1,7 +1,7 @@
-Video Audio Replacement with AI Voice
+#  Video Audio Replacement with AI Voice
 This project allows users to replace the audio of a video file with an AI-generated voice. Built using Streamlit, AssemblyAI, Play.ht, and MoviePy, it enables transcription, speed analysis, and audio synchronization, creating a final video with enhanced AI audio.
 
-Features
+## Features
 Video Upload: Upload a video file (.mp4, .mov, .avi).
 Audio Extraction: Extracts the audio track from the uploaded video.
 Audio Transcription: Converts audio to text using AssemblyAI.
